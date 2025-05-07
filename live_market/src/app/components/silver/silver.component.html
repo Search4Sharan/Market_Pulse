@@ -1,0 +1,9 @@
+<mat-card class="card">
+  <mat-card-header>
+    <mat-card-title>Silver Rate</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <p *ngIf="silverRate">Current Silver Price: {{ silverRate }} USD</p>
+    <p *ngIf="!silverRate">Loading...</p>
+  </mat-card-content>
+</mat-card>
